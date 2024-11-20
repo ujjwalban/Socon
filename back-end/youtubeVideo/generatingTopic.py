@@ -4,7 +4,7 @@ import openai
 from openai import AzureOpenAI
 
 
-def generate_topic_for_video(endpoint,api_key):
+def generate_topic_for_video(endpoint,gemini_api_key,openai_api_key):
     url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent'
     headers = {
         'Content-Type': 'application/json',
@@ -21,7 +21,7 @@ def generate_topic_for_video(endpoint,api_key):
         ]
     }
 
-    params = {'key': 'AIzaSyDGJTXM7ogGAVS9TSvRZuqVMzvU68AjATs'}
+    params = {'key': gemini_api_key}
 
     response = requests.post(url, headers=headers, params=params, data=json.dumps(payload))
 
@@ -31,13 +31,13 @@ def generate_topic_for_video(endpoint,api_key):
         return generated_topic
     else:
         api_base = endpoint
-        api_key= api_key
+        api_key= openai_api_key
         deployment_name = 'gpt-4'
         api_version = '2024-10-21'
 
         client = AzureOpenAI(
-            api_key=api_key,  
-            api_version=api_version,
+            api_key= api_key,
+            api_version= api_version,
             base_url=f"{api_base}/openai/deployments/{deployment_name}"
         )
 

@@ -1,23 +1,26 @@
-from moviepy.editor import *
+import os
 import generatingTopic
 import generatingStory
+from moviepy.editor import *
 from generatingAudio import synthesize_speech
 from generatingImages import generate_images_for_scenes
 from combineImagesToVideo import combine_images_into_video
 from addAudioToVideo import add_audio_to_video
 from uploadingYoutubeVideo import authenticate_youtube, upload_video
 from detailsForVideo import generate_description,generate_title
-from uploadingYotubeShorts import authenticate_youtube, upload_shorts
+from uploadingYoutubeShorts import authenticate_youtube, upload_shorts
 from generatingZoomEffects import zoom_in_and_out_frames
-
+from dotenv import load_dotenv
 
 # Complete Workflow Example:
 if __name__ == "__main__":
 
-    gemini_api_key = 'AIzaSyDGJTXM7ogGAVS9TSvRZuqVMzvU68AjATs'
-    openai_api_endpoint = "https://socon.openai.azure.com/"
-    openai_api_key = "1FdyZkJHaSsMjdVFbFthpwY7bT0WFqFJToE0anDN6avtxl7b5ZxnJQQJ99AKACYeBjFXJ3w3AAABACOGFk6G"  # Replace with your actual OpenAI API key
-    dalle_api_key = "1FdyZkJHaSsMjdVFbFthpwY7bT0WFqFJToE0anDN6avtxl7b5ZxnJQQJ99AKACYeBjFXJ3w3AAABACOGFk6G"
+    load_dotenv()
+
+    gemini_api_key = os.getenv('GEMINI_API_KEY')
+    openai_api_endpoint = os.getenv('OPENAI_API_ENDPOINT')
+    openai_api_key = os.getenv('OPENAI_API_KEY')
+    dalle_api_key = os.getenv('DALLE_API_KEY')
 
     topic = generatingTopic.generate_topic_for_video(openai_api_endpoint,openai_api_key)
     print("Generated Topic:", topic)

@@ -8,6 +8,11 @@ ffmpeg-python
 diffusers[torch]
 torch
 
+# For env settings
+python-dotenv
+pathlib
+
+
 # For TensorFlow
 tensorflow-cpu
 
