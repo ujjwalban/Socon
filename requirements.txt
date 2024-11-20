@@ -1,0 +1,46 @@
+# For pytrends, gtts, moviepy
+pytrends
+gtts
+moviepy
+ffmpeg-python
+
+# For Diffusers and PyTorch
+diffusers[torch]
+torch
+
+# For TensorFlow
+tensorflow-cpu
+
+# For Google Authentication and API client libraries
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+google-cloud-texttospeech
+google-api-python-client==1.7.2
+google-auth==2.14.1
+google-auth-httplib2==0.0.3
+google-auth-oauthlib==0.4.1
+
+# For OpenAI API
+openai
+openai==0.28
+IPython
+
+# Additional dependencies
+ffmpeg
+Pillow
+scipy
+wget
+se
+scipysv
+sr
+rscd
+rsct
+skpid
+sktid
+sktidske
+sktidskeskv
+sig
+azure-ai-openai
+

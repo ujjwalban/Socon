@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "festive-idea-439507-d6",
+  "private_key_id": "a8dfde832a51c7bff16a8ca48c2db4fb974c5df5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCYR1VLSPso5RwS\njPGozA2DxvnwRo6GYC85SucufuHbHu+IG9lW9t3cRJZdA1riifvXFPyXCuOUkrcR\nRf5wR5ZFH4OrU1KJTx8Xg0GUNgQ6SzO0jOM5+u5/Jn/cYLSePwfs1/TIZHCJI8UU\n9/GMrIWZuADeYZgNsS883bGpyy2H8dngZldsxPJOhZtYZ0efFGDomgIpaXXXmBBX\nM2+zQ6zcPgfuNhkcnj92dTczz6y5a1CJtohzAYAU+qluotR7gpzynN/9vXkQXXYU\nsGQC/yLAcDnvKLLBFoa8JOJZqqLweka6NCSdlZBRsxUy3KHRrkK1A9pbk1H1YfAi\nOmh+XmgRAgMBAAECggEAJGyxsBGrtC9DbQOGPZJbrDkA6ZKy/l0NBrcOP+6tPzDx\n6lyA+x6PWKQWVHbcO0J2uU6lkcqSv+PtQsY7k6doAC5G3EkQvdPtc74bhmR6U+hP\nnKEzrBeEC2mN3YzLP2wDzQkmHfX6fi9OcdLSFkxhI7EiEg+Fo8bNbhF4cQ0u3ayj\nZne9IS/DhH8hsHXdws8ScIqAZBOCjRUU63UErs50+kn1fqchn1mEDF5sPFZ8khfs\nrouyigKBB7qhT1ikGyCRWBLpJt/lyS2zKepuqhxjQ0JreoOv729MlIuAUvbm48SH\ntttSYG0noo0Gn9I4hgOaxMhsbLiFlJKwIuvLXMQkXQKBgQDMSNJfssNA3RpwUxZl\n78nAOhN9yBa5pVCxUSCW0nngNftW2bSbH1GCkcW4+JwZqtxZq3TGjEmQ9pPbLGGs\n0C++ovjI/azqzPKt/B/nasQW3U8GsKxRiNoHbJkHjca+AYnTqWzDwsjhYgDiIZDW\nvlja/4+7odzeDS//T5LdnDjr3QKBgQC+1CQn2oWyZvwxCG8kcNFtYcTv7l/2/RFn\nNGNDnd4yEMwXZH2AxiuHCp8g12YBGzsfmt4Bcp/te14+a7OzlYL2RhEyrgUOdL5R\nhuU1Ky/47eR98dUI0SNxLNnYzgBWCxkrcjjRZ3HlucQrE4kukabKmHOhfCbkHKTh\nCrOfVhWTxQKBgQDD0x7PG8at3AVnHU7AQr9MZJ+gmHioVz9l6pXp3jN0aWrY03Kc\nrMXu+xvld3Pz6uS1lHUpivtOWgBcPkwXY64Q+Zqw2PO0VOhhPem7ZY45OMZzbFKT\nCjOuoDyFkDOumjzryGJ5ubPk0ZR1MKXuJKN6szauL7hQp6WWAUqQ4xtxhQKBgQCd\no+wWTCvkG7U74EbIKLapEHo65oW6KIbG5f0Wb4SNgVjH/ki7J3nvvbOE0su+IDuw\nOSQquAErkp1hHWG++cTNI0azwhQFRCWwfao9SOcBUaxO6obdGL+Zj76Knmqiqdpq\nDJqpSjZJ2zMVjrbllIbfmB71iPUrvgnqqgeGmfuLLQKBgCQn76qJKuu0uiktfsML\npa+FjeLqPtuhCZSeaAIY2uXqBYePUqgEmWLzLOg4sxgQWRoRz2KmK5lwT3YXPVA8\nCWkGH/KMBc0hmtUk6Y4fI4J+WHJPL9k55QXzO3zrWlECUWx5oiXmdrdSEuhexPo/\nL+knphnEB6rJ67+ZQD06xKS3\n-----END PRIVATE KEY-----\n",
+  "client_email": "text-to-speech-quickstart@festive-idea-439507-d6.iam.gserviceaccount.com",
+  "client_id": "111959764365212735663",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/text-to-speech-quickstart%40festive-idea-439507-d6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
